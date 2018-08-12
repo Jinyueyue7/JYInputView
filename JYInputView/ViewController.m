@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "JYInputView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor yellowColor];
+    
+    JYInputView *inputView = [[JYInputView alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height-40, self.view.frame.size.width, 40)];
+    inputView.backgroundColor = [UIColor whiteColor];
+    inputView.addImageAndEmojiBlock = ^(NSInteger tag,NSString *commentStr) {
+
+    };
+    
+    [self.view addSubview:inputView];
 }
 
 

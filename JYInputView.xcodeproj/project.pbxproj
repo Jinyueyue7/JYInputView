@@ -16,6 +16,7 @@
 		DD1D96A21F7B79AC00F99F4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1D96A11F7B79AC00F99F4C /* main.m */; };
 		DD1D96AC1F7B79AD00F99F4C /* JYInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1D96AB1F7B79AD00F99F4C /* JYInputViewTests.m */; };
 		DD1D96B71F7B79AD00F99F4C /* JYInputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1D96B61F7B79AD00F99F4C /* JYInputViewUITests.m */; };
+		DD1D96C71F7B7A1A00F99F4C /* JYInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1D96C61F7B7A1A00F99F4C /* JYInputView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DD1D96B21F7B79AD00F99F4C /* JYInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD1D96B61F7B79AD00F99F4C /* JYInputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYInputViewUITests.m; sourceTree = "<group>"; };
 		DD1D96B81F7B79AD00F99F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1D96C51F7B7A1A00F99F4C /* JYInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYInputView.h; sourceTree = "<group>"; };
+		DD1D96C61F7B7A1A00F99F4C /* JYInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYInputView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		DD1D968E1F7B79AC00F99F4C /* JYInputView */ = {
 			isa = PBXGroup;
 			children = (
+				DD1D96C41F7B79F500F99F4C /* JYInputView */,
 				DD1D968F1F7B79AC00F99F4C /* AppDelegate.h */,
 				DD1D96901F7B79AC00F99F4C /* AppDelegate.m */,
 				DD1D96921F7B79AC00F99F4C /* ViewController.h */,
@@ -133,6 +137,15 @@
 				DD1D96B81F7B79AD00F99F4C /* Info.plist */,
 			);
 			path = JYInputViewUITests;
+			sourceTree = "<group>";
+		};
+		DD1D96C41F7B79F500F99F4C /* JYInputView */ = {
+			isa = PBXGroup;
+			children = (
+				DD1D96C51F7B7A1A00F99F4C /* JYInputView.h */,
+				DD1D96C61F7B7A1A00F99F4C /* JYInputView.m */,
+			);
+			path = JYInputView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 				DD1D96941F7B79AC00F99F4C /* ViewController.m in Sources */,
 				DD1D96A21F7B79AC00F99F4C /* main.m in Sources */,
 				DD1D96911F7B79AC00F99F4C /* AppDelegate.m in Sources */,
+				DD1D96C71F7B7A1A00F99F4C /* JYInputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
